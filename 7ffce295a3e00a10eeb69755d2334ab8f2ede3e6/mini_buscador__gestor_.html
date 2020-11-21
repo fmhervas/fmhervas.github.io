@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mini buscador (Gestor)</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/mini_buscador__gestor_/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" type="text/css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+    <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" type="text/css" rel="stylesheet"/>
+    <link href="//cdn.materialdesignicons.com/3.8.95/css/materialdesignicons.min.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/mini_buscador__gestor_/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2362" class="ax_default box_1">
+        <div id="u2362_div" class=""></div>
+        <div id="u2362_text" class="text ">
+          <p><span style="color:#000000;">Para los input que permiten introducir un valor y además realizar una búsqueda del valor a introducir (Código de cliente, p.ej.) utilizaremos un icono de lupa con el color primario dentro del campo (</span><a id="u2363" class="link"><span style="color:#0000FF;">ver colores</span></a><span style="color:#000000;">). El funcionamiento será como el de Shipo en Flex.</span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#000000;">Además de mediante el clic de ratón, hay que estudiar una manera de llamar al buscador usando solo teclado (por ejemplo, con la tecla de flecha abajo cuando el foco está en el input)</span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#000000;">El buscador se presenta centrado horizontalmente y a 32px del borde superior de la ventana (se solapa 16px con la barra superior).</span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#000000;">Se muestra como los popups de confirmación con un efecto lightbox (con el fondo oscurecido).</span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#000000;">Al hacer clic fuera del cuadro de búsqueda, se cierra</span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#000000;">&nbsp;</span></p>
+        </div>
+      </div>
+
+      <!-- Text field Outlined #3B78E7 (Group) -->
+      <div id="u2364" class="ax_default" data-label="Text field Outlined #3B78E7" data-left="280" data-top="60" data-width="160" data-height="44">
+
+        <!-- borde (Rectangle) -->
+        <div id="u2365" class="ax_default bs_borde_input_filled" data-label="borde">
+          <div id="u2365_div" class=""></div>
+        </div>
+
+        <!-- Campo de texto (Text Field) -->
+        <div id="u2366" class="ax_default bs_input_filled" data-label="Campo de texto">
+          <input id="u2366_input" type="text" value=""/>
+        </div>
+
+        <!-- máscara (Rectangle) -->
+        <div id="u2367" class="ax_default bs_m_scara_input_filled" data-label="máscara">
+          <img id="u2367_img" class="img " src="images/buscar__gestor_a_32px_/m_scara_u2359.png"/>
+        </div>
+
+        <!-- Label (Rectangle) -->
+        <div id="u2368" class="ax_default bs_label_input_filled" data-label="Label">
+          <div id="u2368_div" class=""></div>
+          <div id="u2368_text" class="text ">
+            <p><span>Punto de entrega</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u2369" class="ax_default materialicons20">
+          <img id="u2369_img" class="img " src="images/configuraci_n/u567.png"/>
+          <div id="u2369_text" class="text ">
+            <p><span>search</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u2370" class="ax_default image">
+        <img id="u2370_img" class="img " src="images/mini_buscador__gestor_/u2370.jpg"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2371" class="ax_default box_1">
+        <div id="u2371_div" class=""></div>
+        <div id="u2371_text" class="text ">
+          <p><span>Los inputs de búsqueda miden 32px de alto y no tienen label flotante. Solo un placeholder que desaparece al hacer foco.</span></p><p><span><br></span></p><p><span>la separación entre campos es de 8px, tanto en horizontal (código-nombre) como en vertical (entre filas)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u2372" class="ax_default image">
+        <img id="u2372_img" class="img " src="images/mini_buscador__gestor_/u2372.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2373" class="ax_default sticky_1">
+        <div id="u2373_div" class=""></div>
+        <div id="u2373_text" class="text ">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">Roboto Regular 16px</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;">rgba(0, 0, 0, 0.87)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u2374" class="ax_default" data-left="201" data-top="922" data-width="24" data-height="16">
+
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u2375" class="compound ax_default line" WidgetHeight="1" WidgetWidth="24" CompoundMode="true">
+          <img id="u2375_img" class="singleImg img " src="images/mini_buscador__gestor_/u2375.png"/>
+          <div id="u2375p000" class="ax_vector_shape" WidgetTopLeftX="-0.4" WidgetTopLeftY="0" WidgetTopRightX="0.4" WidgetTopRightY="0" WidgetBottomLeftX="-0.4" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="0.4" WidgetBottomRightY="0.166666666666667">
+            <img id="u2375p000_img" class="img " src="images/mini_buscador__gestor_/u2375p000.png"/>
+          </div>
+          <div id="u2375p001" class="ax_vector_shape" WidgetTopLeftX="-0.0909090909090909" WidgetTopLeftY="-0.05" WidgetTopRightX="1" WidgetTopRightY="-0.05" WidgetBottomLeftX="-0.0909090909090909" WidgetBottomLeftY="0" WidgetBottomRightX="1" WidgetBottomRightY="0">
+            <img id="u2375p001_img" class="img " src="images/mini_buscador__gestor_/u2375p001.png"/>
+          </div>
+          <div id="u2375p002" class="ax_vector_shape" WidgetTopLeftX="1" WidgetTopLeftY="0.05" WidgetTopRightX="-0.0909090909090909" WidgetTopRightY="0.05" WidgetBottomLeftX="1" WidgetBottomLeftY="0" WidgetBottomRightX="-0.0909090909090909" WidgetBottomRightY="0">
+            <img id="u2375p002_img" class="img " src="images/mini_buscador__gestor_/u2375p002.png"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u2376" class="ax_default label">
+          <div id="u2376_div" class=""></div>
+          <div id="u2376_text" class="text ">
+            <p><span>24</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u2377" class="ax_default connector">
+        <img id="u2377_seg0" class="img " src="images/mini_buscador__gestor_/u2377_seg0.png" alt="u2377_seg0"/>
+        <img id="u2377_seg1" class="img " src="images/mini_buscador__gestor_/u2377_seg1.png" alt="u2377_seg1"/>
+        <div id="u2377_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2378" class="ax_default sticky_1">
+        <div id="u2378_div" class=""></div>
+        <div id="u2378_text" class="text ">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;">Roboto Regular 14px</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;font-style:normal;">rgba(0, 0, 0, 0.87)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u2379" class="ax_default connector">
+        <img id="u2379_seg0" class="img " src="images/mini_buscador__gestor_/u2377_seg0.png" alt="u2379_seg0"/>
+        <img id="u2379_seg1" class="img " src="images/mini_buscador__gestor_/u2377_seg1.png" alt="u2379_seg1"/>
+        <div id="u2379_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u2380" class="ax_default" data-left="444" data-top="897" data-width="24" data-height="19">
+
+        <!-- Unnamed (Horizontal Line) -->
+        <div id="u2381" class="compound ax_default line" WidgetHeight="1" WidgetWidth="8" CompoundMode="true">
+          <img id="u2381_img" class="singleImg img " src="images/mini_buscador__gestor_/u2381.png"/>
+          <div id="u2381p000" class="ax_vector_shape" WidgetTopLeftX="-0.333333333333333" WidgetTopLeftY="0" WidgetTopRightX="0.333333333333333" WidgetTopRightY="0" WidgetBottomLeftX="-0.333333333333333" WidgetBottomLeftY="0.166666666666667" WidgetBottomRightX="0.333333333333333" WidgetBottomRightY="0.166666666666667">
+            <img id="u2381p000_img" class="img " src="images/mini_buscador__gestor_/u2381p000.png"/>
+          </div>
+          <div id="u2381p001" class="ax_vector_shape" WidgetTopLeftX="-0.0454545454545455" WidgetTopLeftY="-0.05" WidgetTopRightX="0.318181818181818" WidgetTopRightY="-0.05" WidgetBottomLeftX="-0.0454545454545455" WidgetBottomLeftY="0" WidgetBottomRightX="0.318181818181818" WidgetBottomRightY="0">
+            <img id="u2381p001_img" class="img " src="images/mini_buscador__gestor_/u2381p001.png"/>
+          </div>
+          <div id="u2381p002" class="ax_vector_shape" WidgetTopLeftX="0.318181818181818" WidgetTopLeftY="0.05" WidgetTopRightX="-0.0454545454545455" WidgetTopRightY="0.05" WidgetBottomLeftX="0.318181818181818" WidgetBottomLeftY="0" WidgetBottomRightX="-0.0454545454545455" WidgetBottomRightY="0">
+            <img id="u2381p002_img" class="img " src="images/mini_buscador__gestor_/u2381p002.png"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u2382" class="ax_default label">
+          <div id="u2382_div" class=""></div>
+          <div id="u2382_text" class="text ">
+            <p><span>8</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u2383" class="ax_default" data-left="815" data-top="919" data-width="18.5" data-height="32.5">
+
+        <!-- Unnamed (Vertical Line) -->
+        <div id="u2384" class="compound ax_default line" WidgetHeight="32" WidgetWidth="1" CompoundMode="true">
+          <img id="u2384_img" class="singleImg img " src="images/mini_buscador__gestor_/u2384.png"/>
+          <div id="u2384p000" class="ax_vector_shape" WidgetTopLeftX="-0.421052631578947" WidgetTopLeftY="0" WidgetTopRightX="-0.421052631578947" WidgetTopRightY="-0.166666666666667" WidgetBottomLeftX="0.421052631578947" WidgetBottomLeftY="0" WidgetBottomRightX="0.421052631578947" WidgetBottomRightY="-0.166666666666667">
+            <img id="u2384p000_img" class="img " src="images/mini_buscador__gestor_/u2384p000.png"/>
+          </div>
+          <div id="u2384p001" class="ax_vector_shape" WidgetTopLeftX="-0.0454545584598081" WidgetTopLeftY="0" WidgetTopRightX="-0.0454545584598081" WidgetTopRightY="-0.0499999985694212" WidgetBottomLeftX="1.40909089608565" WidgetBottomLeftY="0" WidgetBottomRightX="1.40909089608565" WidgetBottomRightY="-0.0499999985694212">
+            <img id="u2384p001_img" class="img " src="images/mini_buscador__gestor_/u2384p001.png"/>
+          </div>
+          <div id="u2384p002" class="ax_vector_shape" WidgetTopLeftX="1.40909089608565" WidgetTopLeftY="0" WidgetTopRightX="1.40909089608565" WidgetTopRightY="0.0499999985694212" WidgetBottomLeftX="-0.0454545584598081" WidgetBottomLeftY="0" WidgetBottomRightX="-0.0454545584598081" WidgetBottomRightY="0.0499999985694212">
+            <img id="u2384p002_img" class="img " src="images/mini_buscador__gestor_/u2384p002.png"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u2385" class="ax_default label">
+          <div id="u2385_div" class=""></div>
+          <div id="u2385_text" class="text ">
+            <p><span>32</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2386" class="ax_default box_1">
+        <div id="u2386_div" class=""></div>
+        <div id="u2386_text" class="text ">
+          <p><span style="color:#000000;">El campo para el teléfono tiene que ser tan largo como para mostrar 20 dígitos (¿172px?)</span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#000000;">Podemos intentar igualar el tamaño de los campos para códigos para que queden alineados con el del teléfono (ver cómo queda, tengo mis dudas)</span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#000000;">Botones:</span></p><p><span style="color:#000000;">El botón LIMIAR es un mat-button y el BUSCAR un mat-raised-button color=&quot;primary&quot;</span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:#000000;">(en cada módulo, el color que corresponda (</span><a id="u2387" class="link"><span style="color:#0000FF;">ver colores</span></a><span style="color:#000000;">)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2388" class="ax_default box_1">
+        <div id="u2388_div" class=""></div>
+        <div id="u2388_text" class="text ">
+          <p><span>Al pulsar BUSCAR se muestra la data table con los resultados. Si es necesario (debido a las columnas predeterminadas que se muestran), el diálogo crece a lo ancho (y los botones se quedan alineados a la derecha.</span></p><p><span><br></span></p><p><span>En la tabla, si se muestran los elementos inactivos, estos se pintan con el texto al 36% de opacidad rgba(0, 0, 0, 0.36).</span></p><p><span>Los activos siemprevan al 87% rgba(0, 0, 0, 0.87)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u2389" class="ax_default image">
+        <img id="u2389_img" class="img " src="images/mini_buscador__gestor_/u2389.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2390" class="ax_default box_1">
+        <div id="u2390_div" class=""></div>
+        <div id="u2390_text" class="text ">
+          <p><span>La tabla sólo ocupa lo que ocupen los resultados (si hay 3, sólo 3 filas, no se pintan las demás)</span></p><p><span>Si hay más de 10 resultados, la tabla pagina, de manera similar a como la hace Gmail en la bandeja de entrada.</span></p><p><span><br></span></p><p><span>En esta tabla no dejamos elegir el número de filas por página.</span></p><p><span><br></span></p><p><span>Si no caben en la pantalla, la tabla tiene que hacer scroll vertical</span></p><p><span><br></span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2391" class="ax_default box_1">
+        <div id="u2391_div" class=""></div>
+        <div id="u2391_text" class="text ">
+          <p><span>La columna &quot;Estado&quot; estará disponible en el menú &quot;Seleccionar columnas&quot;, pero no la mostramos de manera predeterminada.</span></p><p><span><br></span></p><p><span>OJO: IGNORAR EL PUNTITO VERDE/GRIS DEL ESTADO, NO LO VAMOS A MOSTRAR)</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2392" class="ax_default box_1">
+        <div id="u2392_div" class=""></div>
+        <div id="u2392_text" class="text ">
+          <p><span style="color:#000000;">El clic&nbsp; marca la línea con el estilo selected en la tabla, pero no hace nada más. Sólo puede haber una línea seleccionada en cada momento.</span></p><p><span style="color:#000000;"><br></span></p><p><span style="color:rgba(255, 0, 0, 0.356862745098039);">El mouseover muestra el icono para elegir el registro (de momento, el icono previsto es material icons check_circle o quizá keyboard_return) a 20px, con color primary. Al pulsar el botón</span><span style="color:#000000;"> Al hacer doble clic se cierra el buscador y el registro seleccionado es el que queda en el campo original desde el que venimos</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2393" class="ax_default link_button1">
+        <div id="u2393_div" class=""></div>
+        <div id="u2393_text" class="text ">
+          <p><span>VER EJEMPLO INTERACTIVO</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u2394" class="ax_default image">
+        <img id="u2394_img" class="img " src="images/mini_buscador__gestor_/u2394.png"/>
+      </div>
+    </div>
+  </body>
+</html>
